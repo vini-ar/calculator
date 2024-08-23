@@ -1,6 +1,19 @@
+:root {
+    ---primary-color: #2d2254;
+    ---secondray-color: #f5c42f;
+    ---text-color: #c5bbec;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(---primary-color);
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.6;
 }

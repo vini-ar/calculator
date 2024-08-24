@@ -83,4 +83,6 @@ body {
     padding: 2%;
     overflow-y: scroll;
     font-weight: 100;
+    display: flex;
+    flex-direction: column;
 }
